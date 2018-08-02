@@ -5,7 +5,7 @@ var Calculator = {
 
     $('#calculator .numbers input:not(#sum)').click( function() {
         var orginal-result = $('#result').attr('value');
-        $('#result').attr( 'value', original_result + this.value )
+        $('#result').attr( 'value', orginal-result + this.value )
     } );
 
     $('#calculator .operators input').click( function() {
